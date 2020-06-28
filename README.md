@@ -50,11 +50,19 @@ _[TODO: Create an Installation Guide]_
 
 ## Development Setup
 
-_[TODO: Create a Development Setup Guide]_
+### Install `pug-cli`
 
-## Design Notes
+```sh
+npm install -g pug-cli
+```
 
-_[TODO: Write up design note of system and display text along with color pallete]_
+### Install `sass`
+
+```sh
+npm install -g sass
+```
+
+*Note:* `npm` is a straightfoward installation, but it's not as performant as it's [Dart source](https://github.com/sass/dart-sass).
 
 ## Development Toolset
 
@@ -62,3 +70,7 @@ Via [npm](https://www.npmjs.com/), these are the templating tools to quickly lay
 
 - [**Pug**](https://pugjs.org/) _(formerly Jade)_ - An HTML templating package for outputting raw `.html` from `.pug` template files.
 - [**Sass**](https://sass-lang.com/) - The mature CSS extension and preprocessing language that is the gold standard for web design, converting `.scss` to raw `.css`.
+
+## Design Notes
+
+_[TODO: Write up design note of system and display text along with color pallete]_
