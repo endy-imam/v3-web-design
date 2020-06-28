@@ -73,4 +73,24 @@ Via [npm](https://www.npmjs.com/), these are the templating tools to quickly lay
 
 ## Design Notes
 
-_[TODO: Write up design note of system and display text along with color pallete]_
+_[TODO: Create Visual Representation of Design Implementaion]_
+
+### External CSS
+
+- [normalize.css](https://necolas.github.io/normalize.css/) to reset for HTML5.
+
+### Fonts
+
+Fonts provided from [Google Fonts](https://fonts.google.com/):
+
+- **Heading Font:** [Fira Code](https://fonts.google.com/specimen/Fira+Code?query=Fira+Code) _(Light 300)_
+- **Primary Font:** [Karla](https://fonts.google.com/specimen/Karla?query=Karla) _(Regular 400, Regular 400 Italic, Bold 700)_
+
+### Icons
+
+- **Icons:** [Font Awesome 5 (Free)](https://fontawesome.com/)
+  - Final project will use the pro version.
+
+### Color Pallete
+
+_[TODO: Create Final Color Pallete]_
