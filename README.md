@@ -8,6 +8,7 @@ This time, I want to make another take on designing a site by scratch to make it
 
 This is also the first time I am properly utilizing [Node.js](https://nodejs.org/en/) for my development toolchain.
 
+
 ## To-Do List
 
 - [ ] _Base Case_
@@ -44,9 +45,11 @@ This is also the first time I am properly utilizing [Node.js](https://nodejs.org
   - [ ] Individual Page
     - Include metadata of title, description, external page links, affiliates, tags, and optional background
 
+
 ## Installation
 
 _[TODO: Create an Installation Guide]_
+
 
 ## Development Setup
 
@@ -64,12 +67,40 @@ npm install -g sass
 
 *Note:* `npm` is a straightfoward installation, but it's not as performant as it's [Dart source](https://github.com/sass/dart-sass).
 
+
 ## Development Toolset
 
 Via [npm](https://www.npmjs.com/), these are the templating tools to quickly layout the template for the HTML and CSS:
 
 - [**Pug**](https://pugjs.org/) _(formerly Jade)_ - An HTML templating package for outputting raw `.html` from `.pug` template files.
 - [**Sass**](https://sass-lang.com/) - The mature CSS extension and preprocessing language that is the gold standard for web design, converting `.scss` to raw `.css`.
+
+
+## Directory Hierarchy
+
+```
+v3-web-design/
+├── components/
+├── layouts/
+├── output/
+│   └── css/
+├── pages/
+├── sass/
+├── LICENSE
+└── README.md
+```
+
+### Output Directory
+
+- `outputs/`: The main directory for output HTML and CSS
+
+### Source Directories
+
+- `pages/`: The main directory of `.pug` files to output `pug` from.
+- `layouts/`: The helper directory of `.pug` files to extend from.
+- `components/`: The supporting directory of `.pug` files to include from.
+- `sass/`: The source directory of `.scss` files to output `sass` from.
+
 
 ## Design Notes
 
