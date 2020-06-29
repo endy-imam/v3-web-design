@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Karla:ital,wght@0,400;0,700;1,400&display=swap");
+body {
+  background: #1E252D;
+  color: #C0C0C0;
+  font-family: "Karla", sans-serif;
+}
+
+h1, h2, h3 {
+  color: #E3E3E3;
+  font-family: "Fira Code", monospace;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=main.css.map */

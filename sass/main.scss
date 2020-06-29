@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Karla:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+$background: #1E252D;
+
+$base-text: #C0C0C0;
+$display-text: #E3E3E3;
+
+$display-font: 'Fira Code', monospace;
+$text-font: 'Karla', sans-serif;
+
+
+body {
+	background: $background;
+	color: $base-text;
+	font-family: $text-font;
+}
+
+
+h1, h2, h3 {
+	color: $display-text;
+	font-family: $display-font;
+	font-weight: 300;
+}

@@ -1,13 +1,23 @@
 extends ../layouts/root.pug
 
 block body
-  h1 Hero
+  .meta-section
+    h1 Hero
   .container
     include ../components/hero.pug
 
 append css
   style.
     .container {
-      border-top: 1px solid black;
-      border-bottom: 1px solid black;
+      border-top: 1px solid #E3E3E3;
+      border-bottom: 1px solid #E3E3E3;
+    }
+
+    .meta-section {
+      background: #2D3844;
+    }
+
+    .meta-section h1 {
+      margin: 0;
+      padding: calc(1em * 2 / 3);
     }
