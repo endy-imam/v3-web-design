@@ -1,0 +1,24 @@
+{
+  "name": "endypremier-web-design-v3",
+  "version": "1.0.0",
+  "description": "## Synopsis",
+  "main": "index.js",
+  "scripts": {
+    "start": "pug ./pages -o ./output -P && sass sass:output/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EndyPremier/v3-web-design.git"
+  },
+  "keywords": [],
+  "author": "EndyPremier",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/EndyPremier/v3-web-design/issues"
+  },
+  "homepage": "https://github.com/EndyPremier/v3-web-design#readme",
+  "devDependencies": {
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.26.9"
+  }
+}

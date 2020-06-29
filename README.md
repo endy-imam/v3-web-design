@@ -48,7 +48,10 @@ This is also the first time I am properly utilizing [Node.js](https://nodejs.org
 
 ## Installation
 
-_[TODO: Create an Installation Guide]_
+```sh
+npm install
+npm
+```
 
 
 ## Development Setup
@@ -86,7 +89,10 @@ v3-web-design/
 │   └── css/
 ├── pages/
 ├── sass/
+├── .gitignore
 ├── LICENSE
+├── package.json
+├── package-lock.json
 └── README.md
 ```
 
